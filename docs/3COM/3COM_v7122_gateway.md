@@ -5,4 +5,4 @@ yep, more testing
 - This is a bullet
 - This is another bullet
 
-{{ git.short_commit}} ({{ git.date}}) by {{ git.author}}
+Last changed: {{ git.date.strftime("%b %d, %Y %H:%M:%S") }} by {{ git.author}}
