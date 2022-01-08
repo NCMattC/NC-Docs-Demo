@@ -9,7 +9,8 @@ markdown_extentsions:
 
 plugins:
   - search
-  - macros
+  - macros:
+      include_dir: macros
   - roamlinks
 
 theme:

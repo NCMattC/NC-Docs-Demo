@@ -1,0 +1,1 @@
+<sub>Last changed: {{ git.date.strftime("%b %d, %Y %H:%M:%S") }} by {{ git.author }}</sub>
