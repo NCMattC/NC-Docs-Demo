@@ -1,6 +1,6 @@
 site_name: NC Technician Docs
 
-markdown_extentsions:
+markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
