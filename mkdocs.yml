@@ -3,6 +3,7 @@ site_name: NC Technician Docs
 markdown_extentsions:
   - attr_list
   - admonition
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
