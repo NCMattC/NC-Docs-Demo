@@ -10,5 +10,4 @@ This is a code block. This would be useful to quickly copy shell commands.
 ```
 
 !!! note
-    
     Want the techs to really notice or pay attention to something. Use an admonition!
