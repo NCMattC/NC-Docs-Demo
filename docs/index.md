@@ -10,32 +10,6 @@ Using Github:
 - Minimal time to convert.
 - Could be set up to be automatically built on push (recommended) making no extra work for repo maintainers, or set up to be manually pushed via CLI command (mkdocs gh-deploy).
 
-``` title="Github workflow"
-name: Publish docs via GitHub Pages
-on:
-  push:
-    branches:
-      - master
-
-jobs:
-  build:
-    name: Deploy docs
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v2
-
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base
-          # GITHUB_DOMAIN: github.myenterprise.com
-          REQUIREMENTS: requirements.txt
-```
-
 Using self hosted:
 
 - Everything would stay in house and not rely on an outside source.
