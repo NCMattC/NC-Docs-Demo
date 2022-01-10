@@ -11,5 +11,6 @@ This is a code block. This would be useful to quickly copy shell commands.
 
 !!! note
 
-    Want the techs to really notice or pay attention to something. Use an admonition!
-    2nd line to keep going.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
